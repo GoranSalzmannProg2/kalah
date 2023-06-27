@@ -1,0 +1,146 @@
+kalah> display
+Error! Not a valid command.
+kalah> print
+Error! There is currently no board present.
+kalah> display 5
+Error! Not a valid command.
+kalah> 5
+Error! Not a valid command.
+kalah>
+Error! Not a valid command.
+kalah>
+
+
+
+Error! Not a valid command.
+kalah> Error! Not a valid command.
+kalah> Error! Not a valid command.
+kalah>
+
+Error! Not a valid command.
+kalah> Error! Not a valid command.
+kalah> Error! Not a valid command.
+kalah> sadf
+Error! Not a valid command.
+kalah> as
+w34
+5q4
+ 5Error! Not a valid command.
+kalah> Error! Not a valid command.
+kalah> Error! Not a valid command.
+kalah> new 6 3
+kalah> new 6 3
+kalah> new
+Error! Not enough arguments supplied!
+kalah> new g
+Error! Not enough arguments supplied!
+kalah> new g b
+Error! First and second argument need to be an integer.
+kalah> new g 6
+Error! First and second argument need to be an integer.
+kalah> new 6 g
+Error! First and second argument need to be an integer.
+kalah> print
+0 3 3 3 3 3 3
+  3 3 3 3 3 3 0
+kalah> move 6
+Machine chose pit 11 with seeds reaching pit 14.
+You must miss a turn.
+Machine chose pit 13 with seeds reaching pit 3.
+kalah> print
+2 0 4 0 3 4 4
+  4 4 4 3 3 0 1
+kalah> move 4
+Machine must miss a turn.
+kalah> print
+2 0 4 0 3 4 4
+  4 4 4 0 4 1 2
+kalah> move 1
+Machine chose pit 12 with seeds reaching pit 2.
+kalah> print
+3 1 0 0 3 4 4
+  1 6 5 1 5 1 2
+kalah> move 2
+Machine chose pit 13 with seeds reaching pit 14.
+You must miss a turn.
+Machine chose pit 8 with seeds reaching pit 13.
+kalah> print
+6 0 1 1 4 5 0
+  0 0 6 2 6 2 3
+kalah> move 3
+Machine chose pit 10 with seeds reaching pit 14.
+You must miss a turn.
+Machine chose pit 13 with seeds reaching pit 14.
+You must miss a turn.
+Machine chose pit 12 with seeds reaching pit 14.
+You must miss a turn.
+Machine chose pit 13 with seeds reaching pit 14.
+You must miss a turn.
+Machine chose pit 9 with seeds reaching pit 1.
+kalah> print
+11  1  1  3  1  0  1
+    1  0  0  3  7  3  4
+kalah> move 4
+Machine must miss a turn.
+kalah> print
+11  1  1  3  1  0  1
+    1  0  0  0  8  4  5
+kalah> move 1
+Machine chose pit 8 with seeds reaching pit 9.
+kalah> print
+20  1  0  3  1  0  0
+    0  0  0  0  0  4  7
+kalah> move 6
+Sorry! Machine wins with 28 seeds versus your 8.
+kalah> move 5
+Error! Human may not make a move now.
+Sorry! Machine wins with 28 seeds versus your 8.
+kalah> move 9
+Error! Human may not make a move now.
+Sorry! Machine wins with 28 seeds versus your 8.
+kalah> switch
+Machine chose pit 11 with seeds reaching pit 14.
+You must miss a turn.
+Machine chose pit 12 with seeds reaching pit 2.
+kalah> new 5 6
+Machine chose pit 7 with seeds reaching pit 1.
+kalah> level 5
+kalah> level -1
+Error! Level must be greater than 0.
+kalah> level 0
+Error! Level must be greater than 0.
+kalah> level 67
+kalah> level f
+Error! Argument must be an integer.
+kalah> level 1
+kalah> help
+Mancala/Kalah - all commands:
+NEW <p> <s>:    Creates a new game with <p> pits per player and <s>
+                seeds per pit. The difficulty and the opening player
+                will be copied from the previous game, if possible.
+                If this is the first game the difficulty will be set
+                to 3 and the human player will begin.
+
+LEVEL <i>:      Sets the difficulty from 1 to 7. Changes will be
+                immediately reflected in the bots behaviour.
+
+MOVE <p>:       Lets the player choose a pit from which to take the
+                seeds for his move. If the game doesn't end after
+                the players turn, the computer will make its move
+                immediately after.
+
+SWITCH:         Restarts the game and changes the opening player.
+
+PRINT:          Displays the current state of the board in the
+                console. The first line are the computers pits, the
+                second line shows the players pits.
+
+HELP:           Prints a helping dialog for the game, explaining all
+                available commands.
+
+QUIT:           Exits the game and stops the program.
+
+kalah> quit
+
+--------------------------------------------------------------------------
+
